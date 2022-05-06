@@ -1,7 +1,7 @@
 # <a name="title">Taichi Voxel Challenge</a>
 
 <p align="center">
-    <img src="screenshot/6.jpg" width="75%" alt="demo"/>
+    <img src="screenshot/5.jpg" width="75%" alt="demo"/>
 </p>
 
 > Figure: result with `manual_seed, terrainRange, riverCount, treeCount = 3, 1., 10, 10`
