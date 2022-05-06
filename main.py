@@ -6,7 +6,7 @@ scene = Scene(exposure=1.5, voxel_edges=0)
 scene.set_floor(-0.85, (1.0, 1.0, 1.0))
 scene.set_background_color((0.5, 0.5, 0.4))
 scene.set_directional_light((1, 2, -1), 0.2, (1, 0.8, 0.6))
-manual_seed, riverCount, treeCount = 3, 10, 10
+manual_seed, terrainRange, riverCount, treeCount = 3, 1., 10, 10
 loop = [[0, 0], [1, 0], [0, 1], [1, 1]]
 
 @ti.func
@@ -62,9 +62,9 @@ def createTree(x: ti.i16, y: ti.i16):
 @ti.kernel
 def createTerrain():
     for x, y, z in ti.ndrange(127, 127, 127): scene.set_voxel(vec3(x - 64, z - 64, y - 64), 0, vec3(0))
-    perlinNoise(2, 0.3)
-    perlinNoise(8, 0.2)
-    perlinNoise(32, 0.1)
+    perlinNoise(2, 0.3 * terrainRange)
+    perlinNoise(8, 0.2 * terrainRange)
+    perlinNoise(32, 0.1 * terrainRange)
     for x, y in ti.ndrange(127, 127):
         zl = ti.cast(scene.get_voxel(vec3(x - 64, 0, y - 64))[1][0] * 80, ti.i16)
         for i in range(zl):

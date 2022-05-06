@@ -4,7 +4,7 @@
     <img src="screenshot/6.jpg" width="75%" alt="demo"/>
 </p>
 
-> Figure: result with `manual_seed, riverCount, treeCount = 3, 10, 10`
+> Figure: result with `manual_seed, terrainRange, riverCount, treeCount = 3, 1., 10, 10`
 
 ### Random generate terrain, river and trees like MineCraft
 
@@ -35,8 +35,9 @@ Mouse and keyboard interface:
 + Drag with your left mouse button to rotate the camera.
 + Press `W/A/S/D/Q/E` to move the camera.
 + Press `P` to save a screenshot.
-+ modify `manual_seed` to change what generated.
-+ modify `riverCount` and `treeCount` to change how many rivers and trees generated.
++ modify `manual_seed`(positive integer) to change what generated.
++ modify `riverCount`(integer) and `treeCount`(integer) to change how many rivers and trees generated.
++ modify `terrainRange`(0~1] to change roughness of terrain.
 
 ## More picture
 
