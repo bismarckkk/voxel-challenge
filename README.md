@@ -40,9 +40,9 @@ Mouse and keyboard interface:
 
 ## More picture
 
-<img src="screenshot/6.jpg" width="45%"></img>
-<img src="screenshot/6.jpg" width="45%"></img>
-<img src="screenshot/6.jpg" width="45%"></img>
-<img src="screenshot/6.jpg" width="45%"></img>
-<img src="screenshot/6.jpg" width="45%"></img>
+<img src="screenshot/1.jpg" width="45%"></img>
+<img src="screenshot/2.jpg" width="45%"></img>
+<img src="screenshot/3.jpg" width="45%"></img>
+<img src="screenshot/4.jpg" width="45%"></img>
+<img src="screenshot/5.jpg" width="45%"></img>
 <img src="screenshot/6.jpg" width="45%"></img>
