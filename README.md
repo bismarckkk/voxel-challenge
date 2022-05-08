@@ -1,10 +1,10 @@
 # <a name="title">Taichi Voxel Challenge</a>
 
 <p align="center">
-    <img src="screenshot/6.jpg" width="75%" alt="demo"/>
+    <img src="screenshot/5.jpg" width="75%" alt="demo"/>
 </p>
 
-> Figure: result with `manual_seed, terrainRange, riverCount, treeCount = 3, 1., 10, 10`
+> Figure: result with `manual_seed, biome, snow = 2, 'island', True`
 
 ### Random generate terrain, river and trees like MineCraft
 
@@ -36,8 +36,8 @@ Mouse and keyboard interface:
 + Press `W/A/S/D/Q/E` to move the camera.
 + Press `P` to save a screenshot.
 + modify `manual_seed`(positive integer) to change what generated.
-+ modify `riverCount`(integer) and `treeCount`(integer) to change how many rivers and trees generated.
-+ modify `terrainRange`(0~1] to change roughness of terrain.
++ modify `biome`(forest, grass, island, desert) to change biome.
++ modify `snow` to change snow generated while biome is not desert.
 
 ## More picture
 
@@ -47,3 +47,5 @@ Mouse and keyboard interface:
 <img src="screenshot/4.jpg" width="45%"></img>
 <img src="screenshot/5.jpg" width="45%"></img>
 <img src="screenshot/6.jpg" width="45%"></img>
+<img src="screenshot/7.jpg" width="45%"></img>
+<img src="screenshot/8.jpg" width="45%"></img>
